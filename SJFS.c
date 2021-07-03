@@ -5,7 +5,8 @@ int n,w[100],tot[100],i,j,awt,atot;
 float avwt,avtot;
 struct
 { 
-    int p,bt; }sjf[10],temp;
+    int p,bt; 
+}sjf[10],temp;
     printf("Enter the number of processes:"); 
     scanf("%d",&n);
     for(i=1;i<=n;i++)
