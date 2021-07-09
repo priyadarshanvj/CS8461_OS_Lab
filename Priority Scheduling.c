@@ -48,7 +48,7 @@ for(i=1;i<n;i++)
     printf("\nProcess\t    Burst Time    \tWaiting Time\tTurnaround Time");
     for(i=0;i<n;i++)
     {
-        tat[i]=bt[i]+wt[i];     //calculate turnaround time
+        tat[i]=bt[i]+wt[i];    
         total+=tat[i];
         printf("\nP[%d]\t\t  %d\t\t    %d\t\t\t%d",p[i],bt[i],wt[i],tat[i]);
     }
