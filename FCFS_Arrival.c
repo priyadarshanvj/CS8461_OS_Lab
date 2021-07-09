@@ -21,10 +21,12 @@ int main()
                                 temp=arr[i];
                                 arr[i]=arr[j];
                                 arr[j]=temp;
-                                temp=bur[i];                                                                                                                                                            bur[i]=bur[j];                              
+                                temp=bur[i];                                                                                 
+                                bur[i]=bur[j];                              
                                 bur[j]=temp;
                                 strcpy(t,pn[i]);
-                                strcpy(pn[i],pn[j]);                                                                                                            strcpy(pn[j],t);
+                                strcpy(pn[i],pn[j]);                                                                                                            
+                                strcpy(pn[j],t);
                         }
                 }
         }
